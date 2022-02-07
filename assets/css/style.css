@@ -44,13 +44,20 @@
 #header .header-ig span{
   display: block;
 }
-
-.bestM{}
-.bestM .best-title{}
+/* bestM */
 .bestM .best-title .bt-stit{font-size: 12px; color: #da5e7c; line-height: 1.67;}
 .bestM .best-title .bt-tit{color: #000; font-size: 22px; line-height: 0.91; padding-top: 2px;}
 .bestM .best-title .bt-desc{font-size: 22px; font-weight: 300; color: #818181; margin-top: 8px; margin-bottom: 14px;}
 
+/* recentM */
+.recentM{overflow: hidden; position: relative;}
+.recentM .recent{float: left; width: 42%; margin-right: 8%;}
+.recentM .recent:last-child{position: absolute; margin-right: 0; left:100%;}
+.recentM .container .row > h2{font-size: 20px; font-weight: bold; line-height: 1; color: #000; margin-top: 23px; margin-bottom: 16px; border-top: 1px solid #ebebeb; padding-top: 23px;}
+.recentM .recent-title .rt-stit{font-size: 15px; font-weight: 500; color: #000; line-height: 1.33; letter-spacing: -1px;}
+.recentM .recent-title .rt-tit{font-size: 15px; font-weight: 500; color: #908f94; line-height: 1.33; letter-spacing: -1px;}
+.recentM picture{}
+.recentM picture img{}
 
 
 /* 미디어 쿼리 */
