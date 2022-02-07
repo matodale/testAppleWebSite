@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* container */
+.container{width: 1000px; margin: 0 auto;}
+
+/* row */
+.row{position: relative; margin: 0 20px;}
+
+/* header */
+#header .header-data{
+  font-family: SFProText;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  display: block;
+  padding-top:30px;
+  color: #a8a8a8;
+  padding-left: 2px;
+}
+#header .header-title{
+  font-family: SFProText;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: #000;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+#header .header-ig{
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  width: 40px;
+  height: 40px;
+  background-image: linear-gradient(141deg, #a4a995 16%, rgba(164, 169, 181, 0) 81%), linear-gradient(to bottom, #c4c4c4, #c4c4c4);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+#header .header-ig span{
+  display: block;
+}
+
+.bestM{}
+.bestM .best-title{}
+.bestM .best-title .bt-stit{font-size: 12px; color: #da5e7c; line-height: 1.67;}
+.bestM .best-title .bt-tit{color: #000; font-size: 22px; line-height: 0.91; padding-top: 2px;}
+.bestM .best-title .bt-desc{font-size: 22px; font-weight: 300; color: #818181; margin-top: 8px; margin-bottom: 14px;}
+
+
+
+/* 미디어 쿼리 */
+@media (max-width:1020px){
+  .container{width: 100%;}
+}
